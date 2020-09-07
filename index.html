@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="MUSIC PLAYER by JAVED ">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>MUSIC PLAYER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+</head>
+<body>
+
+<!-- MUSIC PLAYER -->
+<div class="song_box col-12">
+    <h1 id="heading">MUSIC PLAYER</h1>
+    <div class="song_content">
+        <h2 id="title">baby</h2>
+        <h3 id="artist">justin bieber</h3>
+        <div class="song_img">
+            <img src="song1.jpg" alt="">
+        </div>
+        <audio src="song1.mp3"></audio>
+        <!-- PROGRESS BAR -->
+        <div id="prog_box">
+            <div id="prog_duraation">
+                <div id="current_time" style="color: #16697a">0:00</div>
+                <div id="duration" style="color: #16697a">3:36</div>
+            </div>
+            <div id="prog_div">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <!-- CONTROLS -->
+        <div class="song_controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play play_btn" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
